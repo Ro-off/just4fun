@@ -10,14 +10,6 @@
           style="text-align: center;color: white;font-size: 50px;font-style: italic;"
         >
           <script>
-            function askSmth(plzWork) {
-              let times = plzWork.length;
-              let er = [];
-              for (let i = 0; i < times; i++) {
-                er[i] = prompt(plzWork[i]);
-              }
-              return er;
-            }
             // let users = [bob, cargabob, vine, romeo, got];
             let activeUser = askSmth(["Введите текст"]);
             console.log(activeUser);
